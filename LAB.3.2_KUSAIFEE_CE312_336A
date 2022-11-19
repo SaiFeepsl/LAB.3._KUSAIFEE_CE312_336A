@@ -1,0 +1,35 @@
+stack = []
+
+# append() function to push
+# element in the stack
+stack.append('10')
+print(stack)
+stack.append('20')
+print(stack)
+stack.append('30')
+print(stack)
+stack.append('40')
+print(stack)
+stack.append('50')
+print(stack)
+stack.append('60')
+print(stack)
+
+while stack:
+    stack.pop()
+    print(stack)
+    if not stack:
+        break
+
+stack.append('60')
+print(stack)
+stack.append('50')
+print(stack)
+stack.append('40')
+print(stack)
+stack.append('30')
+print(stack)
+stack.append('20')
+print(stack)
+stack.append('10')
+print(stack)

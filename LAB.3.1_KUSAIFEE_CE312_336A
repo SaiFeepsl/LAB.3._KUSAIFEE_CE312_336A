@@ -1,0 +1,46 @@
+#Part1 
+from queue import Empty
+stack = []
+
+# append() function to push
+# element in the stack
+stack.append('10')                                             
+print(stack)
+stack.append('20')     
+print(stack)
+stack.append('30')     
+print(stack)
+stack.append('40')
+print(stack)
+stack.append('50')
+print(stack)
+stack.append('60')
+print(stack)
+
+while stack:
+    stack.pop()
+    print(stack)
+    if not stack:
+        break
+
+#Part2 
+stack1 =[]
+
+stack1.append('10')
+print(stack1)
+stack1.append('20')
+print(stack1)
+stack1.append('30')
+print(stack1)
+stack1.append('40')
+print(stack1)
+stack1.append('50')
+print(stack1)
+stack1.append('60')
+print(stack1)
+
+while stack1:
+    stack1.pop(0)
+    print(stack1)
+    if not stack1:
+        break
